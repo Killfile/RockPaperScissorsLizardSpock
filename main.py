@@ -25,7 +25,7 @@ class Game:
             self.p1_choice = random.choice(["Paper", "Rock", "Scissors"])
             print(f"Sheldon chose {self.p1_choice} -- previous throws are {self.p1_throws}")
             self.p2_choice = random.choice(["Paper", "Rock", "Scissors"])
-            print(f"Kripke chose {self.p2_choice} -- previous throws are {self.p1_throws}")
+            print(f"Kripke chose {self.p2_choice} -- previous throws are {self.p2_throws}")
             self.p1_throws.append(self.p1_choice)
             self.p2_throws.append(self.p2_choice)
 
