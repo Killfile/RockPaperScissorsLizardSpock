@@ -1,7 +1,7 @@
 # Rock Paper Scissors (Lizard Spock)
 
 ## Background
-Is Season Five, Episode 17 of the Big Bang Theory, Sheldon and Barry Kripke are fighting over Professor Rothman's 
+In Season Five, Episode 17 of the Big Bang Theory, Sheldon and Barry Kripke are fighting over Professor Rothman's 
 office. While the dispute is canonically solved by seeing who can bounce a basketball higher, the first proposed contest
 is a friendly game of "Rock Paper Scissors Lizard Spock."
 
@@ -19,6 +19,11 @@ text outputs to incorporate the additional choices.
 
 This code has lots of duplication and probably a few classes hiding inside it for good measure. Tighten it up as you go
 and don't forget to start with some tests.
+
+### Stretch
+
+You can implement the "what-beats-what" chain as a series of `if` statements, but how would your implementation change
+if you expected to add new "throws" every few weeks?
 
 ## Rules for Rock, Paper, Scissors, Lizard, Spock
 [Sheldon's explanation is the best](https://www.youtube.com/watch?v=x5Q6-wMx-K8) but, if you need it in text format...
